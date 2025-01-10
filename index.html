@@ -9,15 +9,15 @@
         /* 全局設定 */
         body {
             font-family: Arial, sans-serif;
-            background-color: #4242db;
+            background-color: #4125df;
             color: aliceblue;
             margin: 0;
             padding: 10px;
             text-align: center;
         }
-        button {
+        #mybutton {
     position: absolute;
-    bottom: 20px;
+    bottom: 0px;
     left: 50%;
     transform: translateX(-50%);
     background-color: #FFFFFF;
@@ -29,7 +29,6 @@
     border-radius: 5px;
     cursor: pointer;
 }
-
         </style>
 </head>
 <body>
@@ -37,7 +36,7 @@
 國立臺灣師範大學韓國學中心
 Cneter for Korean Studies, National Taiwan Normal University
 <br>
-<button onclick="alert('按鈕被點擊！')">點擊我</button>
+<button id="mybutton" onclick="alert('按鈕被點擊！')">點擊我</mybutton>
     <!--  -->
 </body>
 </html>
